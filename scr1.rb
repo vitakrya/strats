@@ -6,9 +6,9 @@ class Frep
 	end
 
 	def prinj
-		['a', 'b', 'f'].each_with_index do |sym, i|
-			puts "#{sym}  #{i}"
-		end
+    ['a', 'b', 'f', 'p'].each_with_index do |sym, i|
+      puts "#{sym} %^$ #{i}"
+    end
 	end
 end
 
