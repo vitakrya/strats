@@ -1,15 +1,15 @@
 class Frep
-	SOMBER = 'Criticue'
+  SOMBER = 'Criticue'
 
-	def jone
-		puts defined?(self.class)
-	end
+  def jone
+    puts defined?(self.class)
+  end
 
-	def prinj
+  def prinj
     ['a', 'b', 'f', 'p'].each_with_index do |sym, i|
       puts "#{sym} %^$ #{i}"
     end
-	end
+  end
 end
 
 f1 = Frep.new
